@@ -1,0 +1,101 @@
+
+
+
+body{
+  background-color: aliceblue;
+  font-family: Monserrat;
+  color: #000000;
+  font-size: 21px;
+  background-size: cover;
+}
+
+
+div{
+  text-align: center;
+
+}
+
+
+}
+
+h1{
+  color:rgb(21, 6, 153);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+.btn-blue{
+  box-shadow: 0px 10px 10px;
+  background-color: rgba(238, 238, 241, 0.938);
+  color:rgb(10, 10, 10);
+  border-radius: 30px;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+
+}
+
+.btn-blue:hover{
+  color: 0.3;
+  background-color: rgb(67, 47, 160);
+  border: 1px solid black;
+
+
+}
+
+h2{
+  color: rgb(11, 16, 85);
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+#profil{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ text-align: center;
+}
+
+.card-beige{
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: rgb(247, 246, 244);
+  border-radius: 9px;
+  box-shadow: 0px 10px 30px;
+
+
+}
+
+#footer{
+  background-color: rgb(10, 10, 68);
+  padding: 25px;
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+#footer>h2{
+    color: white;
+}
+
+#text-footer{
+  color: white;
+}
+
+
+.fab{
+  size: 30px;
+  background-color: rgb(10, 10, 68);
+  color:rgb(247, 246, 244);
+  position: relative;
+  display: flex;
+  width: 20%;
+  }
+
+.fas {
+  size: 5px;
+  color: orangered;
+}
