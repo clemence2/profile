@@ -1,9 +1,10 @@
-
-
+.header{
+    height: 50vh;
+}
 
 body{
   background-color: rgb(230, 219, 190);
-  font-family: Monserrat;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   font-size: 21px;
   background-size: cover;
@@ -13,7 +14,6 @@ body{
 div{
   text-align: center;
 }
-
 
 h1{
   color:rgb(118, 8, 23);
@@ -49,38 +49,18 @@ h2{
 }
 
 #profil{
- width: 200px;
- height: 200px;
+ width: 150px;
+ height: 150px;
  border-radius: 50%;
  text-align: center;
  border: 1px solid black;
 }
 
-.headertrans{
-  height: 10vh;
-}
 
-.header{
+.card{
   height: 35vh;
-  margin-top: 70px;
-  margin-bottom: 20px;
-}
-
-.card-beige{
-  width: 80%;
+  width: 65%;
   text-align: center;
-  background-color: rgb(247, 246, 244);
-  border-radius: 9px;
-  box-shadow: 0px 10px 30px;
-  margin: auto;
-}
-
-.card-category{
-  margin: auto;
-  background-size: cover;
-  background-position: center;
-  height: 20vh;
-  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,7 +70,20 @@ h2{
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  background-size: cover;
+  background-position: center;
 }
+
+/* .card-beige{
+
+  background-color: rgb(247, 246, 244);
+  border-radius: 9px;
+  box-shadow: 0px 10px 30px;
+  margin: auto;
+} */
+
+
 
 #footer{
   height: 20vh;
